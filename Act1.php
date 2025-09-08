@@ -71,7 +71,7 @@ $productNamesArr = [
 
 
 foreach ($productNamesArr as $prod) {
-    echo  $prod["name"] . " - " . number_format($prod["price"], 2) . "<br><br>";
+     echo "Product: " . $prod["name"] . " - Price: " . $prod["price"]. "<br><br>";
 }
 
 ?>
