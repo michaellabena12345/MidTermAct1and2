@@ -14,8 +14,8 @@ $productPrices = [55000, 40000, 20000, 8000];
 
 echo implode(", ", $productNames) . "<br><br>";
 
-echo "Price by index 0: " . $productPrices[0] . "<br><br>";
-echo "Last index: " . $productPrices[count($productPrices)-1] . "<br><br>";
+echo "First product Price: " . $productPrices[0] . "<br><br>";
+echo "Last product Price: " . $productPrices[count($productPrices)-1] . "<br><br>";
 
 echo "---------------- TASK 2: Detailed Product View (Associative Array) ----------------<br><br>";
 
